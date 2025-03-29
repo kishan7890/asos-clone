@@ -1,0 +1,54 @@
+.header{
+  width: 100vw;
+  height: 100px;
+  background-color: #c1c6cc72;
+  color:  #fff;
+  padding: 20px 0;
+  position: sticky;
+
+  top: 0;
+  z-index: 1000;  
+  left: 0%;
+  overflow-x: hidden;
+}
+
+.searchbar{
+  width: 70%;
+  /* height: 40px; */
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+input{
+  box-shadow: 2px 2px 5px #000;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 10px;
+  color: #000;
+  outline: none;
+}
+.navbar{
+  width: 90%;
+  margin: 0 auto;
+  /* background-color: #3a3a3b72; */
+  overflow: hidden;
+  
+}
+.left{
+  width: 20%;
+  border-right: 2px solid #fff;
+  padding: 10px;
+  
+}
+.right{
+  width: 80%;
+  padding: 10px;
+}
+
+.AccountDetails{
+  box-shadow: 2px 2px 5px #000;
+  z-index: 1000;
+}

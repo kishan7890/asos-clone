@@ -1,0 +1,38 @@
+/* .card{
+  width: 90%;
+  margin: 0 auto;
+} */
+
+.image{
+  /* overflow: hidden; */
+  overflow: hidden;
+  transition: all 2s ease-in-out;
+  box-shadow: 2px 2px 5px #000;
+
+}
+.image img{
+  width: 100%;
+  height: 50vh;
+  /* object-fit: cover; */
+  object-fit: cover;
+  object-position: center;
+  transition: all 1.2s ease-in-out;
+}
+.image img:hover{
+  scale: 1.1;
+  
+}
+.details{
+  background: #fff;
+  padding: 1rem;
+  bottom: -120px;
+  padding-bottom: 10px;
+  transition: all 1.2s ease-in-out;
+  width: 100%;
+}
+.image:hover .details{
+  bottom: 10px;
+}
+.heart-btn{
+  background: #4141414c;
+}
